@@ -1,0 +1,60 @@
+<html>
+<head>
+
+<title>C81</title>
+<link rel="stylesheet" type="text/css" href="C81style.css">
+</head>
+<body class="body_backgorund">
+
+<center>
+	<h1>My First Canvas</h1>
+	<canvas id="cachete" width="850" height="600">
+		
+	</canvas>
+</center>
+
+
+<script >
+ canvas=document.getElementById("cachete");
+ ctx=canvas.getContext("2d");
+ 
+
+ ctx.beginPath();
+ ctx.strokeStyle="red";
+ ctx.lineWidth=1.23;
+ ctx.rect(150,143,430,200);
+ ctx.stroke();
+
+ ctx.beginPath();
+ ctx.strokeStyle="blue";
+ ctx.lineWidth=5;
+ ctx.arc(250,210,40,0,2*Math.PI);
+ ctx.stroke();
+ 
+ ctx.beginPath();
+ ctx.strokeStyle="black";
+ ctx.lineWidth=5;
+ ctx.arc(340,210,40,0,2*Math.PI);
+ ctx.stroke();
+ 
+ ctx.beginPath();
+ ctx.strokeStyle="yellow";
+ ctx.lineWidth=5;
+ ctx.arc(295,250,40,0,2*Math.PI);
+ ctx.stroke();
+
+ ctx.beginPath();
+ ctx.strokeStyle="green";
+ ctx.lineWidth=5;
+ ctx.arc(385,250,40,0,2*Math.PI);
+ ctx.stroke();
+
+ ctx.beginPath();
+ ctx.strokeStyle="red";
+ ctx.lineWidth=5;
+ ctx.arc(430,210,40,0,2*Math.PI);
+ ctx.stroke();
+ 
+</script>
+</body>
+</html>

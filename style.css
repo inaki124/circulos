@@ -1,0 +1,15 @@
+h1
+{
+	color: red; 
+	font-size: 40px;
+}
+.body_backgorund {
+ background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fwallpaper-texture&psig=AOvVaw27bNZFVBFHs5u_PE872xJD&ust=1668208975268000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPClkO3gpPsCFQAAAAAdAAAAABAJ");
+ background-position: center;
+ background-size: cover;
+}
+#cachete{
+ border-width: 10px;
+ background-color: lightpink;
+ border-style: groove;
+}
